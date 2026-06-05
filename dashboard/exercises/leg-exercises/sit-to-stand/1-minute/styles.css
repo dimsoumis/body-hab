@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+}
+
+.output_canvas {
+		 -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+	
+	max-width: 100%;
+  max-height: 100vh;
+		}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#exerNtimeSpace {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background: #ffffff8c;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#currentExer, #currentTime, #currentRepeat, #currentSitDistThres, #currentStandDistThres, #currDistLeft, #currDistRight {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#currentExerMessage, #timerMessage, #currDistMessageLeft {
+  margin-bottom: 10px;
+}
+
+#exerButtonsSpace {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background: #ffffff85;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#sitDistThresLabel, #standDistThresLabel {
+  background: #ffffff8c;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#sitDistThresRange, #standDistThresRange {
+  width: 100%;
+  margin: 7px 0px;
+}
+
+#startExer, #cancelExer {
+  float: right;
+	/* margin-top: 15px; */
+} 
+
+#goBackButt {
+position: absolute;
+	bottom: 10px;
+	left: 20px;
+}
+
+#currDistMessages {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+ background: #ffffff8c;
+  padding: 10px;
+  border-radius: 20px;	
+}
+
+#countdownForSetters {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 99999999999999999999999999999999999999999999999;
+  font-size: 125px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
